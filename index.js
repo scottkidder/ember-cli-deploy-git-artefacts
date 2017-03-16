@@ -25,7 +25,7 @@ module.exports = {
         if (this.readConfig('enabled') === false) { return; }
 
         const plugin    = this;
-        const distDir   = this.readConfig(distDir);
+        const distDir   = this.readConfig('distDir');
         const artefacts = this.readConfig('git');
 
         artefacts.forEach(function(obj) {
