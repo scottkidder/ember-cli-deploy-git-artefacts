@@ -21,7 +21,7 @@ module.exports = {
 
       requiredConfig: ['git'],
 
-      prepare: function(context) {
+      prepare: function(/* context */) {
         if (this.readConfig('enabled') === false) { return; }
 
         const plugin    = this;

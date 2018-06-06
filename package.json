@@ -14,7 +14,7 @@
   },
   "repository": "",
   "scripts": {
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js": "./node_modules/.bin/eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
     "test": "ember try:each"
   },
