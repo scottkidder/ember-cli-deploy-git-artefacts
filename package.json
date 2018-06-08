@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-git-artefacts",
-  "version": "0.0.3-beta.0",
+  "version": "0.0.3-beta.1",
   "description": "This plugin generates git artefacts into files",
   "keywords": [
     "ember-addon",
