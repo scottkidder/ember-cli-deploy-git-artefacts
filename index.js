@@ -1,4 +1,3 @@
-/* jshint node: true */
 'use strict';
 
 const fs = require('fs');
@@ -10,7 +9,7 @@ module.exports = {
   name: 'ember-cli-deploy-git-artefacts',
 
   createDeployPlugin: function(options) {
-    var DeployPlugin = DeployPluginBase.extend({
+    const DeployPlugin = DeployPluginBase.extend({
       name: options.name,
       defaultConfig: {
         enabled: true,
